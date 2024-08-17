@@ -1,0 +1,36 @@
+.loggedLayout {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+}
+
+.loginLayout {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100%;
+}
+.content {
+    flex: 1;
+}
+
+router-outlet {
+   flex: 1;
+   display: flex;
+   justify-content: center; /* Centraliza o conteúdo horizontalmente */
+   align-items: center;
+}
+
+.disabled {
+    display: none;
+    margin: 0 10px;
+}
+
+.on {
+    margin: 0 10px;
+}
