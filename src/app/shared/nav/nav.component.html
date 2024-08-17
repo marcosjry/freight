@@ -1,0 +1,19 @@
+<app-nav-bar>
+    <app-nav-item class="nav-item" [routerLink]="['home']"
+    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+    >Home</app-nav-item>
+    <app-nav-item class="nav-item"  [routerLink]="['fretes']"
+    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+    >Fretes</app-nav-item>
+    <app-nav-item class="nav-item"  [routerLink]="['usuarios']"
+    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+    >Usuários</app-nav-item>
+    <app-nav-item class="nav-item"  [routerLink]="['veiculos']"
+    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+    >Veiculos</app-nav-item>
+    <app-button-generic
+    buttonText="Sair"
+    class="button-nav"
+    (click)="onExit()"
+    ></app-button-generic>
+</app-nav-bar>

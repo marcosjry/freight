@@ -1,0 +1,13 @@
+.nav-item {
+    padding: 10px 0;
+    
+}
+.nav-item:hover,
+.nav-item.active {
+    border-radius: 20px;
+    background-color: #00000010;  
+}
+
+.button-nav {
+    margin-top: 10px;
+}
