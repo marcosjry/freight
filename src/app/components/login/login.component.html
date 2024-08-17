@@ -1,0 +1,9 @@
+<div class="login-container">
+    <div class="login-wrapper">
+        <h3>Login Page</h3>
+        <app-login-form (formValues)="onFormValuesChange($event)"
+        class="display-form"
+        ></app-login-form>
+        <button class="add-produto" (click)="login()">Login</button>
+    </div>
+</div>

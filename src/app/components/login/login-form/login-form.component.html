@@ -1,0 +1,24 @@
+
+
+
+            <form [formGroup]="loginForm" class="login-form">
+                
+                <app-generic-input
+                    formControlName="login"
+                    label="Email"
+                    inputName="login"
+                    type="email"
+                    placeholder="E-mail"
+                    >
+                </app-generic-input>
+        
+                <app-generic-input
+                    formControlName="password"
+                    label="Password"
+                    inputName="password"
+                    type="password"
+                    placeholder="Password"
+                    >
+                </app-generic-input>
+            </form>
+
